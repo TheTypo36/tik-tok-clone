@@ -1,0 +1,24 @@
+.videoFooter {
+  position: relative;
+  color: white;
+  bottom: 150px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.videoFooter_text {
+  flex: 1;
+}
+.videoFooter_text > p {
+  padding-bottom: 20px;
+}
+.videoFooter_text > h3 {
+  padding-bottom: 20px;
+}
+.overlay::before,
+.overlay::after {
+  background: transparent !important;
+}
+.videoFooter_ticker {
+  display: flex;
+}

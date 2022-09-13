@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import "../styles/Video.css";
+import VideoFooter from "./VideoFooter";
 
 import video from "D:/Arrow/Anand/backup/WhatsApp Video/VID-20190702-WA0026.mp4";
 function Video() {
@@ -28,6 +29,7 @@ function Video() {
         loop
         src={video}
       ></video>
+      <VideoFooter />
     </div>
   );
 }
